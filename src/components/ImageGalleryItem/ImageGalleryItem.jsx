@@ -1,5 +1,5 @@
-export const ImageGalleryItem = () => (
-  <li class="gallery-item">
-    <img src="" alt="" />
+export const ImageGalleryItem = ({ prevImg, largeImg, altImg }) => (
+  <li>
+    <img src={prevImg} alt={altImg} />
   </li>
 );
